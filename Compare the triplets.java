@@ -22,14 +22,14 @@ class Result {
     for (int i=0;i<a.size();i++){
         if (a.get(i)>b.get(i)){
            aliceScore++; 
-        //When a is greater than b aliceScore variable increases its value by 1  
+           //When a is greater than b aliceScore variable increases its value by 1  
         }
         else if (a.get(i)==b.get(i)){    
-        //When both are equal the values keep the same.    
+           //When both are equal the values keep the same.    
         }
         else if (a.get(i)<b.get(i)){
           bobScore++; 
-        //When b is greater than a bobScore variable increases its value by 1           
+          //When b is greater than a bobScore variable increases its value by 1           
         }
            
     }
